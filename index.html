@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorax - Cartões de Personagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/CSS/reset.css" />
+    <link rel="stylesheet" href="./src/CSS/estilos.css" />
+    <link rel="stylesheet" href="./src/CSS/responsivo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="/src/imagens/favicon.png" />
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!--
+      var answer = confirm("Para ter uma melhor experiência,clique no play logo acima na página.");
+      if (!answer){
+      window.location = "";
+      }
+      //-->
+      </script>
+    <header class="cabecalho">
+      <div class="fundo-personagem"></div>
+      <audio style="width: 100%" controls autoplay>
+        <source src="./src/audio/audio.mp3" type="audio/mp3" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+
+      <div class="loading">
+        <img
+          class="logo"
+          src="./src/imagens/Loading.gif"
+          alt="Logo-Lorax"
+        />
+      </div>
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="./src/imagens/Lorax_Logo.png"
+          alt="Logo-DrSeussLorax"
+        />
+      </div>
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/lorax.png"
+          alt="Personagem selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h1 class="nome-personagem" id="nome-personagem">Lorax</h1>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Uma criatura laranja e mesquinha que fala pelas árvores.
+          </p>
+        </div>
+      </section>
+      <section class="personagens">
+        <h1 class="titulo">Escolha um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="lorax"
+            data-name="Lorax"
+            data-descripton="Uma criatura laranja e mesquinha que fala pelas árvores."
+          >
+            <img
+              src="./src/imagens/thumblorax.png"
+              alt="Personagem Lorax"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="ted"
+            data-name="Ted"
+            data-descripton="Um garoto de 12 anos, idealista e ousado, com uma paixão gigantesca por sua vizinha, Audrey."
+          >
+            <img
+              src="./src/imagens/thumbted.png"
+              alt="Personagem Ted"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="norma"
+            data-name="Vovó Norma"
+            data-descripton="A Avó sábia e maluca de Ted."
+          >
+            <img
+              src="./src/imagens/thumbnorma.png"
+              alt="Personagem Norma"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="ohare"
+            data-name="Aloysius O'Hare"
+            data-descripton="Um implacável titã da indústria que ganha a vida vendendo ar."
+          >
+            <img
+              src="./src/imagens/thumbohare.png"
+              alt="Personagem Ohare"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="audrey"
+            data-name="Audrey"
+            data-descripton="Uma garota otimista que ama árvores e é alvo da paixão de Ted."
+          >
+            <img
+              src="./src/imagens/thumbaudrey.png"
+              alt="Personagem Audrey"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="onceler"
+            data-name="Umavezild"
+            data-descripton="Um jovem ambicioso e um pouco imprudente, o Once-Ler(Umavezildo)destruiu a floresta e tornou-se um recluso procurando consertar seus erros."
+          >
+            <img
+              src="./src/imagens/thumbonceler.png"
+              alt="Personagem Onceler"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="footer">
+      <div class="social">
+        <a
+          href="https://wa.link/aaowa6"
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://www.instagram.com/dsalless_/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/dodosantosbr/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/dodosantosbr" target="_blank"
+        ><i class="fab fa-github"></i
+        ></a>
+        <p class="copyright">Desenvolvido por: Douglas Sales</p>
+      </div>
+    </section>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

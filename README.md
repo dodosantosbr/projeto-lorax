@@ -7,7 +7,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto de seleção mobile do filme lorax é um site que simula uma seleção de personagem sobre a resposividade mobile, focado totalmente para aparelhos mobiles.
+O projeto de seleção mobile do filme lorax é um site que simula uma seleção de personagem sobre a responsividade mobile, focado totalmente para aparelhos mobiles.
 
 ## 🔗 Deploy
 
